@@ -1,27 +1,69 @@
-# ProjectCDN
+# Types of images  #
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+* apng --> browser support --> chrome , edge , firefox , opera , safari .  --> imagekit does not support
 
-## Development server
+* avif -->  browser support --> chrome   , firefox , opera  .  --> imagekit does not support
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* gif -->  browser support --> chrome , edge , firefox , opera , safari , IE .
 
-## Code scaffolding
+* jpeg , jpg , jfif -->  browser support --> chrome , edge , firefox , opera , safari , IE .
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* png -->  browser support --> chrome , edge , firefox , opera , safari , IE .
 
-## Build
+* svg -->  browser support --> chrome , edge , firefox , opera , safari , IE.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* webp -->  browser support --> chrome , edge , firefox , opera , safari .
 
-## Running unit tests
+# Various types of videos #
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* webm .
+* mkv .
+* flv .
+* vob .
+* ogv .
+* gif .
+* gifv .
+* mng .
+* avi .
+* mnv .
+* amv .
+* svi .
+* mp4 .
+* wmv .
+* mov .
+* mts .
+* mpg .
+* mpog .
+* m4v .
+* 3gp .
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Suppoeted for image kit ##
 
-## Further help
+* webm  , gif , mp4 , gifv , mov , m4v .
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Desk cach and memory cache #
+
+* "Memory Cache" stores and loads resources to and from Memory (RAM). So this is much faster but it is non-persistent. Content is available until you close the Browser.
+
+* "Disk Cache" is persistent. Cached resources are stored and loaded to and from disk.
+
+# Optimization ( Reducing width and height ) #
+
+* We can not change the width and height of SVG images .
+
+* Wecan change the videos width and height of WEBM and MOV video formats .
+
+* When size reduces , the file size is also get redduced .
+
+# Pricing #
+
+<a>https://imagekit.io/plans/#plan-feature-comparison</a>
+
+
+
+
+
+
+
+
